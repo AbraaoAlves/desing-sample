@@ -1,0 +1,31 @@
+
+
+header, section{
+	display: flex;
+}
+
+h1, h2{
+	align-self: center;
+}
+
+header ul{
+	display:flex;
+	flex-flow: row;
+	list-style-type: none;
+}
+
+header ul li {
+	padding: 10px;
+	margin: 5px;
+	background-color: red;
+}
+
+header ul li i{
+	align-self: center;
+	padding: 20px;
+	margin: 10px;
+	
+	background-image: url("images/face-icon.gif");
+	background-repeat: no-repeat;	
+}
+
