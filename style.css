@@ -1,0 +1,57 @@
+@font-face{
+	font-family: icons;
+	src:url('fonts/ionicons.ttf');
+}
+
+@font-face {
+	font-family: dailyquantum;
+	src: local("fonts/Daily Quantum.ttf"), url("fonts/Daily Quantum.ttf");
+}
+
+header {
+	background-color: #03A9F4;
+}
+
+h1 {
+ 	font: 54px dailyquantum, Tahoma, Sans-serif;
+}
+h2{
+	font: 36px dailyquantum, Tahoma, Sans-serif;
+	}
+
+h1, h2{
+	color: white;
+}
+
+i{
+	font: 40px icons;
+	color:white;
+}
+
+i.devart:before{
+ content:"\f4d5";
+}
+i.instagran:before{
+	content:"\f350";
+}
+i.facebook:before{
+	content:"\f230";
+}
+
+
+section {
+	height: 150px;
+	background-repeat: no-repeat;
+}
+
+section#pinturas_digitais {
+	background-image:  url("images/pinturas.jpg");
+}
+
+section#desing_jogos{
+	background-image: url("images/jogos.jpg");
+}
+
+section#projetos{
+	background-image: url("images/unity.png");
+}
