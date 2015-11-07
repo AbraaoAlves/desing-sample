@@ -1,0 +1,23 @@
+{
+  "name": "site-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbraaoAlves/desing-sample.git"
+  },
+  "author": "@AbraaoAlves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbraaoAlves/desing-sample/issues"
+  },
+  "homepage": "https://github.com/AbraaoAlves/desing-sample#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-gh-pages": "^0.5.4"
+  }
+}
